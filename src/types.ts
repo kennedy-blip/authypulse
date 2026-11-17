@@ -1,0 +1,1 @@
+export type Role='admin'|'developer'|'viewer'|'auditor';export type Session={id:string;name:string;email:string;role:Role;client:string;ip:string;issuedAt:number;expiresAt:number};
